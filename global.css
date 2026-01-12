@@ -37,6 +37,8 @@ body {
 
     display: flex-column;
     height: 100vh;
+    justify-content:flex-start;
+    align-content:center;
     /* align-items:center;
     justify-content:center; */
 
@@ -46,13 +48,14 @@ body {
 }
 
 #nav {
-    height: 10vh;
+    height: 8vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-family: editorialsans, sans-serif;
     font-size: .8rem;
+
     background-color: lightgrey;
     color: darkred;
 }
@@ -70,7 +73,7 @@ body {
 
 #container {
     width:100vw;
-    height: 90vh;
+    height: 92vh;
     margin: auto;
     background-color: inherit;
     color: inherit;
