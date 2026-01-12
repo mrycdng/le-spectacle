@@ -40,6 +40,7 @@ body {
     /* align-items:center;
     justify-content:center; */
 
+    font-family:editorialnew;
     background-color: lightgrey;
     color: darkgrey;
 }
@@ -56,6 +57,17 @@ body {
     color: darkred;
 }
 
+#nav a {
+    text-decoration:none;
+    color:darkred;
+}
+
+#nav a:hover {
+    text-decoration:none;
+    font-family:editorialsans;
+    font-style:italic;
+}
+
 #container {
     width:100vw;
     height: 90vh;
@@ -66,4 +78,5 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     padding: 0px;
+    text-align:center;
 }

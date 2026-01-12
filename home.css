@@ -1,0 +1,10 @@
+a {
+    text-decoration:none;
+    font-size:5rem;
+    color:inherit;
+}
+a:hover {
+    font-style:italic;
+    color:darkred;
+}
+
