@@ -106,18 +106,18 @@ body {
     color: darkred;
 }
 
-#title-card {
+.title-card {
     display:flex-row;
     justify-content:center;
     align-items:center;
 }
-#title {
+.title {
     line-height:1rem;
 }
-#subtitle {
+.subtitle {
     margin:0;
     font-size:2rem;
-    margin-top:-8rem;
+    margin-top:-7rem;
     margin-bottom:1rem;
     padding:0;
     text-transform:uppercase;
