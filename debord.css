@@ -73,12 +73,7 @@ i {
 }
 
 #container-inner a {
-    text-decoration:none;
-    height: 8rem;
-    position: sticky;
-    z-index: 3;
-    filter: grayscale(100%) drop-shadow(1.5px 1.5px 3px darkgrey);
-    
+    text-decoration:none; 
 }
 
 sup {
