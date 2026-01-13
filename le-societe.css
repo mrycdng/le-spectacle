@@ -1,3 +1,24 @@
+#nav-left {
+    background-color:darkred;
+    color:lightgrey;
+}
+
+#nav-right {
+    background-color:darkgrey;
+}
+
+#nav-right:hover a {
+    color:darkred;
+}
+
+#nav-center a {
+    color:darkgrey;
+}
+
+#nav-center:hover a {
+    color:darkred;
+}
+
 .sticky-img {
     height: 8rem;
     position: sticky;
@@ -10,6 +31,12 @@
     height:12rem;
     width:auto;
     transition:height 0.2s ease;
+}
+
+#container-inner p {
+    width:100%;
+    padding:0px;
+    text-align:center;
 }
 
 #container-inner a {

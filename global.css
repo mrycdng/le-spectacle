@@ -31,13 +31,14 @@
 
 
 
+
 body {
     margin: 0;
     padding: 0;
 
     display: flex-column;
     height: 100vh;
-    justify-content:flex-start;
+    width:100vw;
     align-content:center;
 
     font-family:editorialnew;
@@ -47,32 +48,39 @@ body {
 
 #nav {
     height: 8vh;
+    width:90vw;
+    margin:auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
+
     font-family: editorialsans, sans-serif;
     font-size: .8rem;
 
     background-color: lightgrey;
     color: darkred;
+    text-align:center;
 }
 
 #nav a {
     text-decoration:none;
-    color:darkred;
+    color:lightgrey;
 }
 
-#nav a:hover {
-    text-decoration:none;
-    font-family:editorialsans;
-    font-style:italic;
+#nav-left {
+    flex:1;
+}
+#nav-center {
+    flex:1;
+}
+#nav-right {
+    flex:1;
 }
 
 #container {
     width:100vw;
     height: 92vh;
-    margin: auto;
+    margin:auto;
     background-color: inherit;
     color: inherit;
     overflow-y: scroll;
@@ -110,15 +118,16 @@ body {
     display:flex-row;
     justify-content:center;
     align-items:center;
+    margin-top:-5rem;
 }
-.title {
-    line-height:1rem;
-}
+
 .subtitle {
     margin:0;
-    font-size:2rem;
     margin-top:-7rem;
     margin-bottom:1rem;
+
+    font-size:2rem;
+    line-height:3rem;
     padding:0;
     text-transform:uppercase;
     font-family:editorialsans;

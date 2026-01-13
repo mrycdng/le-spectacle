@@ -1,0 +1,30 @@
+#container-inner a {
+    text-decoration:none;
+    font-size:5rem;
+    color:inherit;
+}
+#container-inner a:hover {
+    font-style:italic;
+    color:darkred;
+}
+
+#nav-right {
+    background-color:darkred;
+    color:lightgrey;
+}
+
+#nav-left {
+    background-color:darkgrey;
+}
+
+#nav-left:hover a {
+    color:darkred;
+}
+
+#nav-center a {
+    color:darkgrey;
+}
+
+#nav-center:hover a {
+    color:darkred;
+}

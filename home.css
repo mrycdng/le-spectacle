@@ -1,19 +1,12 @@
-a {
-    text-decoration:none;
-    font-size:5rem;
-    color:inherit;
+#nav-left {
+    background-color:darkgrey;
 }
-a:hover {
-    font-style:italic;
+#nav-left:hover a {
     color:darkred;
 }
-#container {
+#nav-right {
+    background-color:darkgrey;
 }
-/* #container-inner {
-    margin-top: -18vh;
-    height:92vh;
-} */
-#container-inner p {
-    font-size:5rem;
-    line-height:6rem;
+#nav-right:hover a {
+    color:darkred;
 }
