@@ -8,23 +8,35 @@
     color:darkred;
 }
 
-#nav-right {
-    background-color:darkred;
-    color:lightgrey;
+body {
+    overflow-y: hidden;
 }
 
+#nav-center {
+    border-top:1px solid darkgrey;
+}
+#nav-center a{
+    color:darkgrey;
+}
+#nav-center:hover a {
+    color:darkred;
+}
+#nav-center:hover {
+    border-top:1px solid darkred;
+}
 #nav-left {
-    background-color:darkgrey;
+    border-top:1px solid darkgrey;
 }
-
+#nav-left a{
+    color:darkgrey;
+}
 #nav-left:hover a {
     color:darkred;
 }
-
-#nav-center a {
-    color:darkgrey;
+#nav-left:hover {
+    border-top:1px solid darkred;
 }
-
-#nav-center:hover a {
+#nav-right {
     color:darkred;
+    border-top:1px solid darkred;
 }

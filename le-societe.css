@@ -1,22 +1,34 @@
-#nav-left {
-    background-color:darkred;
-    color:lightgrey;
+body {
+    overflow-y: hidden;
 }
 
+#nav-center {
+    border-top:1px solid darkgrey;
+}
+#nav-center a{
+    color:darkgrey;
+}
+#nav-center:hover a {
+    color:darkred;
+}
+#nav-center:hover {
+    border-top:1px solid darkred;
+}
 #nav-right {
-    background-color:darkgrey;
+    border-top:1px solid darkgrey;
 }
-
+#nav-right a{
+    color:darkgrey;
+}
 #nav-right:hover a {
     color:darkred;
 }
-
-#nav-center a {
-    color:darkgrey;
+#nav-right:hover {
+    border-top:1px solid darkred;
 }
-
-#nav-center:hover a {
+#nav-left {
     color:darkred;
+    border-top:1px solid darkred;
 }
 
 .sticky-img {
