@@ -1,3 +1,6 @@
+body {
+    overflow-y: hidden;
+}
 #nav-left {
     background-color:darkgrey;
 }
@@ -9,4 +12,39 @@
 }
 #nav-right:hover a {
     color:darkred;
+}
+
+#container-inner {
+    display:flex;
+    flex-direction:row;
+    width:90vw;
+    height:92vh;
+}
+
+.about {
+    height:80vh;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content:center;
+
+    text-align:center;
+    font-size:3rem;
+    line-height:3.5rem;
+}
+
+#about-left {
+    flex:1;
+}
+#about-center {
+    flex:1;
+    color:darkred;
+    font-family:editorialsans;
+    font-size:2rem;
+    text-transform:uppercase;
+    line-height:2.5rem;
+}
+#about-right {
+    flex:1;
 }

@@ -32,11 +32,9 @@
     width:auto;
     transition:height 0.2s ease;
 }
-
 #container-inner p {
     width:100%;
     padding:0px;
-    text-align:center;
 }
 
 #container-inner a {
