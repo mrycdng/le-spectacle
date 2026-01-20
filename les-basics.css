@@ -1,15 +1,6 @@
-#container-inner a {
-    text-decoration:none;
-    font-size:5rem;
-    color:inherit;
-}
-#container-inner a:hover {
-    font-style:italic;
-    color:darkred;
-}
-
 body {
-    overflow-y: hidden;
+    width:100vw;
+    align-content: flex-start;
 }
 
 #nav-center {
@@ -40,3 +31,119 @@ body {
     color:darkred;
     border-top:1px solid darkred;
 }
+
+
+.gradient-lr {
+    height: 20vh;
+    width: 10vw;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+#left-gradient {
+    left: 0;
+    background-image: linear-gradient(to right, red, transparent);
+}
+
+#right-gradient {
+    right: 0;
+    background-image: linear-gradient(to left, red, transparent);
+}
+
+#container-a {
+    height:26vh;
+    padding-left:5vw;
+    padding-right:5vw;
+    box-sizing:border-box;
+}
+
+#container-b {
+    /* background-color:aliceblue; */
+    height:66vh;
+
+
+}
+
+#container-inner-b {
+    /* background-color:lightslategray; */
+    height:66vh;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    overflow-y:hidden;
+    box-sizing:border-box;
+    padding:10px;
+
+}
+
+
+.slide {
+    height: 100%;
+    width:fit-content;
+}
+
+img{
+    height:inherit;
+    filter:grayscale(100);
+}
+
+img:hover {
+    filter: grayscale(0%);
+    transition: 0.5s ease;
+    height:60vh;
+}
+
+
+#container-inner-b::-webkit-scrollbar {
+    height: 6px; 
+  }
+  
+  #container-inner-b::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  #container-inner-b::-webkit-scrollbar-thumb {
+    background-color: darkred;
+    border-radius: 0; 
+  }
+
+  #tooltip {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* VERY IMPORTANT */
+    opacity: 0;
+    transform: translate(12px, 12px);
+    transition: opacity 0.12s ease;
+    z-index: 9999;
+  
+    background: darkred;
+    color: lightgrey;
+    padding: 5px 5px;
+    margin:0;
+    font-size: .7rem;
+    font-family: editorialsans;
+    text-transform:uppercase;
+    width:fit-content;
+    max-width:20vw;
+
+  }
+
+
+
+  #title {
+    width:59.64vw;
+    font-family:editorialsans;
+    font-size:2rem;
+    text-transform:uppercase;
+    border-bottom:1px solid darkred;
+    color:darkred;
+    margin-bottom:3vh;
+  }
+
+  #caption {
+    width:59.64vw;
+    font-size:1.8rem;
+  }

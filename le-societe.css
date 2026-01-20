@@ -35,12 +35,14 @@ body {
     height: 8rem;
     position: sticky;
     z-index: 3;
-    filter: grayscale(100%) drop-shadow(1px 1px 3px darkgrey);
-    mix-blend-mode:multiply;
+    /* filter: grayscale(100%) drop-shadow(1px 1px 3px darkgrey); */
+    filter: grayscale(100%);
+    /* mix-blend-mode:multiply; */
 }
 
 .sticky-img:hover {
-    filter: grayscale(0%) drop-shadow(2px 2px 3px darkred);
+    /* filter: grayscale(0%) drop-shadow(2px 2px 3px darkred); */
+    filter: grayscale(0%);
     height:12rem;
     mix-blend-mode:normal;
     width:auto;
@@ -64,12 +66,12 @@ body {
 } */
 
 #sticky-img-2 {
-    top:48vh;
+    top:46vh;
     content:url("https://benditomockup.com/wp-content/uploads/2025/06/Bendito_Mockup-LB25-W21-Le_Facade-Color.webp");
 }
 
 #sticky-img-3 {
-    top:70vh;
+    top:66vh;
     content:url("https://benditomockup.com/wp-content/uploads/2025/06/Bendito_Mockup-LB25-W20-Le_Sign-02.webp");
 }
 
@@ -79,12 +81,12 @@ body {
 }
 
 #sticky-img-5 {
-    top:22vh;
+    top:20vh;
     content:url("https://benditomockup.com/wp-content/uploads/2025/04/Bendito_Mockup-LB25-W10-Le_Coffee_Cup.webp");
 }
 
 #sticky-img-6 {
-    top:55vh;
+    top:57vh;
     content:url("https://benditomockup.com/wp-content/uploads/2025/08/Bendito_Mockup-LB25-W29-Le_Box.webp");
 }
 
@@ -99,7 +101,7 @@ body {
 }
 
 #sticky-img-9 {
-    top:62vh;
+    top:64vh;
     content:url("https://benditomockup.com/wp-content/uploads/2025/02/Bendito_Mockup-LB25-W05-Le_MacBook-02.webp");
 }
 
@@ -114,17 +116,13 @@ body {
 }
 
 #sticky-img-12 {
-    top:19vh;
+    top:22vh;
     content:url("https://the-brandidentity.com/uploads/cache/products/lb25-w28-le-air-freshener-mockup/5038776/LB25-W28-Le-Air-Freshener-Mockup-2-bc9e4.webp");
 }
 
-#sticky-img-12 {
-    top:19vh;
-    content:url("https://the-brandidentity.com/uploads/cache/products/lb25-w28-le-air-freshener-mockup/5038776/LB25-W28-Le-Air-Freshener-Mockup-2-bc9e4.webp");
-}
 
 #sticky-img-13 {
-    top:52vh;
+    top:54vh;
     content:url("https://benditomockup.com/wp-content/uploads/2025/06/Bendito_Mockup-LB25-W19-Le_Soap_Bottle-Color.webp");
 }
 
@@ -141,6 +139,16 @@ body {
 #sticky-img-16 {
     top:0vh;
     content:url("https://benditomockup.com/wp-content/uploads/2025/06/Bendito_Mockup-LB25-W18-Le_Can-Color.webp");
+}
+
+#sticky-img-17 {
+    top:70vh;
+    content:url("https://benditomockup.com/wp-content/uploads/2025/09/Bendito_Mockup-LB25-W31-Le_Keychain-Color.webp");
+}
+
+#sticky-img-18 {
+    top:44vh;
+    content:url("https://benditomockup.com/wp-content/uploads/2025/10/Bendito_Mockup-LB25-W38-Le_Cosmetic_Tube.webp");
 }
 
 #container::-webkit-scrollbar {

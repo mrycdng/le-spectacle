@@ -53,7 +53,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:1rem;
+    gap:1vw;
 
     font-family: editorialsans, sans-serif;
     font-size: .8rem;
@@ -162,10 +162,11 @@ i {
 
 #top-gradient {
     top: 0rem;
-    background-image: linear-gradient(to bottom, lightgrey, rgba(211, 211, 211, 0));
+    background-image: linear-gradient(to bottom, lightgrey, transparent);
 }
 
 #bot-gradient {
     bottom: 0rem;
-    background-image: linear-gradient(to top, lightgrey, rgba(211, 211, 211, 0));
+    background-image: linear-gradient(to top, lightgrey, transparent);
 }
+
