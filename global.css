@@ -142,8 +142,9 @@ h1 {
     font-family: editorialsans;
     border-bottom: 1px solid darkred;
     color: darkred;
-    padding-top: .8rem;
+    /* padding-top: .8rem; */
     margin-bottom: 5rem;
+    line-height:4rem;
     text-transform:uppercase;
 }
 

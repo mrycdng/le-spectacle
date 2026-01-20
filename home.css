@@ -37,24 +37,8 @@ body {
     width:90vw;
     height:92vh;
     gap:1rem;
-
-    width:90vw;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top: -0vh;
-
-    font-family: editorialnew;
-    font-weight:lighter;
-    /* text-transform:uppercase; */
-    font-size: 10rem;
-    line-height: 11rem;
-    text-align: center;
-    overflow-wrap: break-word;
-    hyphens: none;
-    color: inherit;
-    transition: color 0.3s ease;
-
 }
+
 
 .about {
     height:80vh;
@@ -65,8 +49,8 @@ body {
     align-content:center;
 
     text-align:center;
-    font-size:3rem;
-    line-height:3.5rem;
+    font-size:2.5rem;
+    line-height:3rem;
 }
 
 #about-left {
@@ -74,12 +58,13 @@ body {
 }
 #about-center {
     flex:1;
+}
+#about-right {
+    flex:1;
+}
+#about-bold {
     color:darkred;
     font-family:editorialsans;
     font-size:2rem;
     text-transform:uppercase;
-    line-height:2.5rem;
-}
-#about-right {
-    flex:1;
 }

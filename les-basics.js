@@ -8,12 +8,12 @@ const containerA = document.querySelector('#container-a');
 // 2D-array which stores all of my data corresponding to each image
 const slideinfo = [
     [
-        "LB25 W21 Le Billboard 01 Mockup",
+        "“Le Billboard”",
         "Here. A monument to your scrolling addiction, immortalized in rustproof irony. Perfect—and utterly pointless.",
         "The Society of the Spectacle       I. The whole of life of those societies in which modern con­ditions of production prevail presents itself as an immense accumulation of spectacles. All that once was directly lived has become mere representation."
     ],
     [
-        "LB25 W21 Le Facade Mockup",
+        "“Le Facade”",
         "Facade mockup: because pretending is exhausting, but here we are. Handmade, of course—because wasting time feels noble.",
         "II.  Images detached from every aspect of life merge into a common stream, and the former unity of life is lost for­ever. Apprehended in a partial way, reality unfolds in a new generality as a pseudo-world apart, solely as an object of contemplation."
     ],

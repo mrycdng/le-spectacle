@@ -159,3 +159,7 @@ body {
     background-color: darkred;
     border-radius: 0px;  
 }
+
+.subtitle {
+    border-bottom:1px solid darkred;
+}
