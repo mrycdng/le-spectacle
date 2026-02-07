@@ -104,7 +104,7 @@ const slideinfo = [
 
 
 
-//prevent anything from changing when scrolling
+//Prevent anything from changing when scrolling
 let isScrolling = false;
 let scrollTimeout;
 
@@ -120,7 +120,7 @@ containerB.addEventListener('scroll', () => {
 
 
 
-//gets corresponding title/caption/tooltip from array +  mouse interaction
+//Get corresponding title/caption/tooltip from array +  mouse interaction
 
 slides.forEach(slide => {
     slide.addEventListener('mouseenter', e => {
@@ -152,14 +152,3 @@ slides.forEach(slide => {
     });
   });
 
-
-//   slides.addEventListener('mouseenter', e => {
-//     containerA.style.opacity = 0;
-  
-//     requestAnimationFrame(() => {
-//       ctitle.textContent = titleText;
-//       ccaption.textContent = captionText;
-//       containerA.style.opacity = 1;
-//     });
-//   });
-  

@@ -35,13 +35,10 @@ body {
     height: 8rem;
     position: sticky;
     z-index: 3;
-    /* filter: grayscale(100%) drop-shadow(1px 1px 3px darkgrey); */
     filter: grayscale(100%);
-    /* mix-blend-mode:multiply; */
 }
 
 .sticky-img:hover {
-    /* filter: grayscale(0%) drop-shadow(2px 2px 3px darkred); */
     filter: grayscale(0%);
     height:12rem;
     mix-blend-mode:normal;
@@ -61,9 +58,6 @@ body {
     top:1.5vh;
     content:url("https://benditomockup.com/wp-content/uploads/2025/06/Bendito_Mockup-LB25-W21-Le_Billboard-01.webp");
 }
-/* #p1 {
-    scroll-margin-top:3vh;
-} */
 
 #sticky-img-2 {
     top:46vh;
